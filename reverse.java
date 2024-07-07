@@ -8,6 +8,5 @@ public class reverse {
         for(i=num;i>=0;i--){
             System.out.println(i);
         }
-
     }
 }

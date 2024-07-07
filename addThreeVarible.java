@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class adc {
+public class addThreeVarible {
     public static void main(String[] args) {
         int a=0,b=1,c,num;
         Scanner sc= new Scanner(System.in);
