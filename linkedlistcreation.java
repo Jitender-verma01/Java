@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class linledlist {
+public class linkedlistcreation{
     class Node {
         int data;
         Node next;
@@ -29,14 +29,16 @@ public class linledlist {
     public void display() {
         Node current = head;
         while (current != null) {
-            System.out.print(current.data + " ");
+            System.out.print(current.data + " -> ");
             current = current.next;
         }
-        System.out.println();
+        System.out.println("null");
     }
 
+    
+
     public static void main(String[] args) {
-        linledlist linkedList = new linledlist();
+        linkedlistcreation linkedList = new linkedlistcreation();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter numbers to add to the linked list (type 'exit' to stop):");
